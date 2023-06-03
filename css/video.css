@@ -10,15 +10,6 @@
 .thumbnail-video{
     margin-bottom: 10px;
 }
-.search-box{
-    display: block;
-}
-p{
-    font-family: Roboto, arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .video-title{
     margin-top: 0;
     font-size: 14px;
@@ -34,9 +25,9 @@ p{
     width: 40px;    
 }
 
-.video-info{
+/* .video-info{
     width: 200px;
-}
+} */
 
 .profile-picture{
     width: 100%;
@@ -50,4 +41,17 @@ p{
 }
 .video-author{
     margin-bottom: 6px;
+}
+.thumbnail-video{
+    position: relative;
+}
+.video-timer{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Roboto;
+    padding: 5px;
+    border-radius: 3px;
 }
